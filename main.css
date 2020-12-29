@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  background-color: #a3bcb6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projectContainer {
+  width: 550px;
+  height: 350px;
+  margin: 20px;
+  background-color: #ebe8e1;
+  border-radius: 15px;
+}
+
+.projectContainer h3 {
+  color: #656b67;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.python1 {
+  width: 35px;
+  margin-left: 5%;
+}
+
+.python2 {
+  width: 35px;
+  margin-left: 5%;
+}
+
+.projectContainer p {
+  color: #656b67;
+  padding: 0px 20px;
+  margin-top: 20px;
+}
+
+.gitHub {
+  background-color: #3c403d;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 35%;
+}
+
+.gitHub:hover {
+  background-color: #232524;
+  transition-duration: 500ms;
+}
+
+.tryIt {
+  background-color: #26c485;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.tryIt:hover {
+  background-color: #197e55;
+  transition-duration: 500ms;
+}
