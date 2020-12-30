@@ -7,17 +7,43 @@ body {
 
 .projectContainer {
   width: 550px;
-  height: 350px;
+  height: 360px;
   margin: 20px;
   background-color: #ebe8e1;
   border-radius: 15px;
 }
 
 .projectContainer h3 {
-  color: #656b67;
-  text-align: center;
+  color: #555a57;
   padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
   font-size: 30px;
+}
+
+.projectContainer h3 {
+  background-color: #949c96;
+  position: relative;
+  transform: translateZ(0);
+  transition: color 1000ms;
+}
+
+.projectContainer h3:before {
+  content: "";
+  background-color: #26c485;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleY(0);
+  transform-origin: 50% 0%;
+  transition-property: transform;
+  transition: 300ms ease-out;
+}
+.projectContainer h3:hover:before {
+  transform: scaleY(1);
 }
 
 .python1 {
